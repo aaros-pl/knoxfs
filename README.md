@@ -16,7 +16,7 @@ You can remove tor by
 Tor-proxy repo
 https://github.com/aaros-pl/tor-docker
 
-Prepare your torrc file in current dir (example in repo), remplace random hash with your password hash
+Prepare your torrc file in current dir (example in repo), replace random hash with your password hash
 
 Run tor container
 
