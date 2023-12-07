@@ -84,3 +84,5 @@ docker run -d \
     -masternodeaddr=onionv2address.onion:29929 \
     -addnode=yournodeip:29929
 ```
+
+Donations KFX: KM8vUExoDPijNdBwdWatnXEA4gQWigHGvw
