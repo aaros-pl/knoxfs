@@ -54,6 +54,7 @@ docker run -a STDOUT \
     -discover=1 \
     -listenonion=1 \
     -proxy=127.0.0.1:9050 \
+    -onion=127.0.0.1:9050 \
     -torcontrol=127.0.0.1:9051 \
     -torpassword=your_password \
     -debug=tor \
@@ -75,6 +76,7 @@ docker run -d \
     -discover=1 \
     -listenonion=1 \
     -proxy=127.0.0.1:9050 \
+    -onion=127.0.0.1:9050 \
     -torcontrol=127.0.0.1:9051 \
     -torpassword=your_password \
     -debug=tor \
