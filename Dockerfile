@@ -2,7 +2,7 @@ FROM ubuntu:focal
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-    && apt-get install -y wget unzip \
+    && apt-get install -y wget unzip dnsutils traceroute \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /tmp
